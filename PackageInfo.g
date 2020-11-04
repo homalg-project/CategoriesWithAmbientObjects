@@ -12,15 +12,17 @@ SetPackageInfo( rec(
 PackageName := "CategoriesWithAmbientObjects",
 Subtitle := "Categories with objects having ambient objects",
 Version := Maximum( [
-                   "2020.10.03", ## Mohamed's version
+                   "2020.10-03", ## Mohamed's version
                    ## this line prevents merge conflicts
-                   "2015.10.06", ## Kamal's version
+                   "2015.10-06", ## Kamal's version
+                   ## this line prevents merge conflicts
+                   "2015.11-01", ## Fabian's version
                    ## this line prevents merge conflicts
                    ] ),
 
 # this avoids git-merge conflicts
-Date := ~.Version{[ 1 .. 10 ]},
-Date := Concatenation( ~.Version{[ 9, 10 ]}, "/", ~.Version{[ 6, 7 ]}, "/", ~.Version{[ 1 .. 4 ]} ),
+Date := "04/11/2020",
+Date := "04/11/2020",
 License := "GPL-2.0-or-later",
 
 
@@ -68,7 +70,7 @@ README_URL      := "https://homalg-project.github.io/CategoriesWithAmbientObject
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v", ~.Version, "/CategoriesWithAmbientObjects-", ~.Version ),
 # END URLS
 
-ArchiveFormats := ".tar.gz",
+ArchiveFormats := ".tar.gz .zip",
 
 ##  Status information. Currently the following cases are recognized:
 ##    "accepted"      for successfully refereed packages
