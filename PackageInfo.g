@@ -12,7 +12,7 @@ SetPackageInfo( rec(
 PackageName := "CategoriesWithAmbientObjects",
 Subtitle := "Categories with objects having ambient objects",
 Version := Maximum( [
-                   "2020.10-03", ## Mohamed's version
+                   "2021.02-01", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2015.10-06", ## Kamal's version
                    ## this line prevents merge conflicts
@@ -21,8 +21,8 @@ Version := Maximum( [
                    ] ),
 
 # this avoids git-merge conflicts
-Date := "04/11/2020",
-Date := "04/11/2020",
+Date := "28/02/2021",
+Date := "28/02/2021",
 License := "GPL-2.0-or-later",
 
 
@@ -64,7 +64,7 @@ SourceRepository := rec(
     URL := "https://github.com/homalg-project/CategoriesWithAmbientObjects",
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://homalg-project.github.io/CategoriesWithAmbientObjects",
+PackageWWWHome  := "https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects",
 PackageInfoURL  := "https://homalg-project.github.io/CategoriesWithAmbientObjects/PackageInfo.g",
 README_URL      := "https://homalg-project.github.io/CategoriesWithAmbientObjects/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v", ~.Version, "/CategoriesWithAmbientObjects-", ~.Version ),

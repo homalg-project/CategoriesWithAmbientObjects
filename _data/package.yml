@@ -1,7 +1,7 @@
 name: CategoriesWithAmbientObjects
-version: "2020.10-03"
+version: "2021.02-01"
 license: "GPL-2.0-or-later"
-date: 2020-11-04
+date: 2021-02-28
 description: |
     Categories with objects having ambient objects
 
@@ -25,28 +25,28 @@ needed-pkgs:
       url: "https://gap-packages.github.io/AutoDoc"
     - name: "AttributeCategoryForCAP"
       version: ">= 2016.09.14"
-      url: "https://homalg-project.github.io/CAP_project/AttributeCategoryForCAP"
+      url: "https://homalg-project.github.io/pkg/AttributeCategoryForCAP"
     - name: "GeneralizedMorphismsForCAP"
       version: ">= 2017.04.01"
-      url: "https://homalg-project.github.io/CAP_project/GeneralizedMorphismsForCAP"
+      url: "https://homalg-project.github.io/pkg/GeneralizedMorphismsForCAP"
     - name: "ToolsForHomalg"
       version: ">= 2015.09.23"
-      url: "https://homalg-project.github.io/homalg_project/ToolsForHomalg"
+      url: "https://homalg-project.github.io/pkg/ToolsForHomalg"
     - name: "GAPDoc"
       version: ">= 1.1"
       url: "http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc"
 
-www: https://homalg-project.github.io/CategoriesWithAmbientObjects
+www: https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects
 readme: README.md
 packageinfo: https://homalg-project.github.io/CategoriesWithAmbientObjects/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2020.10-03/CategoriesWithAmbientObjects-2020.10-03.tar.gz
+      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.02-01/CategoriesWithAmbientObjects-2021.02-01.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2020.10-03/CategoriesWithAmbientObjects-2020.10-03.zip
+      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.02-01/CategoriesWithAmbientObjects-2021.02-01.zip
 
-pdf: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2020.10-03/CategoriesWithAmbientObjects-2020.10-03.pdf
+pdf: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.02-01/CategoriesWithAmbientObjects-2021.02-01.pdf
 
 abstract: |
 
@@ -57,28 +57,29 @@ keywords: |
     categories, ambient objects.
 citeas: |
     <p class='BibEntry'>
-    [<span class='BibKey'>BS20</span>]   <b class='BibAuthor'>Barakat, M. and Saleh, K.</b>,
+    [<span class='BibKey'>BS21</span>]   <b class='BibAuthor'>Barakat, M. and Saleh, K.</b>,
      <i class='BibTitle'>CategoriesWithAmbientObjects, Categories with objects having ambient objects,
-             Version 2020.10-03</i>
-     (<span class='BibYear'>2020</span>)<br />
+             Version 2021.02-01</i>
+     (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
-    <span class='BibHowpublished'><a href="https://homalg-project.github.io/CategoriesWithAmbientObjects">https://homalg-project.github.io/CategoriesWithAmbientObjects</a></span>.
+    <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects">https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects</a></span>.
     </p>
     
 
 bibtex: |
-    @misc{ CategoriesWithAmbientObjects2020.10-03,
+    @misc{ CategoriesWithAmbientObjects2021.02-01,
       author =           {Barakat, M. and Saleh, K.},
       title =            {{CategoriesWithAmbientObjects},     Categories    with
-                          objects having ambient objects, {V}ersion 2020.10-03},
-      month =            {Nov},
-      year =             {2020},
+                          objects having ambient objects, {V}ersion 2021.02-01},
+      month =            {Feb},
+      year =             {2021},
       note =             {GAP package},
       howpublished =     {\href
-                          {https://homalg-project.github.io/CategoriesWithAmbientObjects}
+                          {https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects}
                           {\texttt{https://homalg-project.github.io/}\discretionary
+                          {}{}{}\texttt{pkg/}\discretionary
                           {}{}{}\texttt{CategoriesWithAmbientObjects}}},
       keywords =         {categories; ambient objects},
-      printedkey =       {BS20}
+      printedkey =       {BS21}
     }
 
