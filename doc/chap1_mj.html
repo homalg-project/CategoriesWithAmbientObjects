@@ -28,9 +28,10 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X7CC6903E78F24167">1.1 <span class="Heading">Categories</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X8484B7F580E849E3">1.1-1 IsLazyGeneralizedEmbeddingInAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7FBFD1957CCE1B35">1.1-2 IsCapCategoryObjectWithAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X836B68D580DC5D3B">1.1-3 IsCapCategoryMorphismWithAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X8364062B787C0D2F">1.1-1 IsCapCategoryWithAmbientObjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X8484B7F580E849E3">1.1-2 IsLazyGeneralizedEmbeddingInAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7FBFD1957CCE1B35">1.1-3 IsCapCategoryObjectWithAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X836B68D580DC5D3B">1.1-4 IsCapCategoryMorphismWithAmbientObject</a></span>
 </div></div>
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1_mj.html#X7C701DBF7BAE649A">1.2 <span class="Heading">Attributes</span></a>
 </span>
@@ -46,12 +47,13 @@
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7E3E7FF47A1978BA">1.3-1 CreateLazyGeneralizedEmbeddingInAmbientObject</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7A8BEE637ACB8E95">1.3-2 LazyGeneralizedEmbeddingInAmbientObject</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7DC89F2A7E286C7D">1.3-3 ObjectWithAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X79C310428706B335">1.3-4 ObjectWithAmbientObjectFromLazyGeneralizedEmbedding</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X786FFCF7864A4D24">1.3-5 MorphismWithAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X796005367FEBA8BB">1.3-6 CategoryWithAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7C90203B8750E72D">1.3-7 DisplayEmbeddingInAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7F3807797979F97E">1.3-8 WithAmbientObject</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X82AECD3979E1EDE6">1.3-9 WithAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7DF3EE8384B7F803">1.3-4 ObjectWithAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X79C310428706B335">1.3-5 ObjectWithAmbientObjectFromLazyGeneralizedEmbedding</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X786FFCF7864A4D24">1.3-6 MorphismWithAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X81D6CA30868FDCC9">1.3-7 CategoryWithAmbientObjects</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7C90203B8750E72D">1.3-8 DisplayEmbeddingInAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X7F3807797979F97E">1.3-9 WithAmbientObject</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1_mj.html#X82AECD3979E1EDE6">1.3-10 WithAmbientObject</a></span>
 </div></div>
 </div>
 
@@ -61,9 +63,18 @@
 
 <h4>1.1 <span class="Heading">Categories</span></h4>
 
+<p><a id="X8364062B787C0D2F" name="X8364062B787C0D2F"></a></p>
+
+<h5>1.1-1 IsCapCategoryWithAmbientObjects</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryWithAmbientObjects</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of lazy evaluated generalized embeddings in ambient objects.</p>
+
 <p><a id="X8484B7F580E849E3" name="X8484B7F580E849E3"></a></p>
 
-<h5>1.1-1 IsLazyGeneralizedEmbeddingInAmbientObject</h5>
+<h5>1.1-2 IsLazyGeneralizedEmbeddingInAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsLazyGeneralizedEmbeddingInAmbientObject</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
 <p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
@@ -72,7 +83,7 @@
 
 <p><a id="X7FBFD1957CCE1B35" name="X7FBFD1957CCE1B35"></a></p>
 
-<h5>1.1-2 IsCapCategoryObjectWithAmbientObject</h5>
+<h5>1.1-3 IsCapCategoryObjectWithAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryObjectWithAmbientObject</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
 <p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
@@ -81,7 +92,7 @@
 
 <p><a id="X836B68D580DC5D3B" name="X836B68D580DC5D3B"></a></p>
 
-<h5>1.1-3 IsCapCategoryMorphismWithAmbientObject</h5>
+<h5>1.1-4 IsCapCategoryMorphismWithAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCapCategoryMorphismWithAmbientObject</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
 <p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
@@ -149,9 +160,18 @@
 
 <p>Construct an object in the category <var class="Arg">A</var> with ambient objects out of the generalized embedding <var class="Arg">iota</var>.</p>
 
+<p><a id="X7DF3EE8384B7F803" name="X7DF3EE8384B7F803"></a></p>
+
+<h5>1.3-4 ObjectWithAmbientObject</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ObjectWithAmbientObject</code>( <var class="Arg">o</var>, <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: an object in the category <var class="Arg">A</var> with ambient objects</p>
+
+<p>Construct an object in the category <var class="Arg">A</var> with ambient objects out of the identity morphism of <var class="Arg">o</var>, view as a generalized embedding of <var class="Arg">o</var> in itself.</p>
+
 <p><a id="X79C310428706B335" name="X79C310428706B335"></a></p>
 
-<h5>1.3-4 ObjectWithAmbientObjectFromLazyGeneralizedEmbedding</h5>
+<h5>1.3-5 ObjectWithAmbientObjectFromLazyGeneralizedEmbedding</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ObjectWithAmbientObjectFromLazyGeneralizedEmbedding</code>( <var class="Arg">iota</var>, <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: an object in the category <var class="Arg">A</var> with ambient objects</p>
@@ -160,21 +180,21 @@
 
 <p><a id="X786FFCF7864A4D24" name="X786FFCF7864A4D24"></a></p>
 
-<h5>1.3-5 MorphismWithAmbientObject</h5>
+<h5>1.3-6 MorphismWithAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MorphismWithAmbientObject</code>( <var class="Arg">phi</var>, <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a morphism in the category <var class="Arg">A</var> with ambient objects</p>
 
-<p><a id="X796005367FEBA8BB" name="X796005367FEBA8BB"></a></p>
+<p><a id="X81D6CA30868FDCC9" name="X81D6CA30868FDCC9"></a></p>
 
-<h5>1.3-6 CategoryWithAmbientObject</h5>
+<h5>1.3-7 CategoryWithAmbientObjects</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CategoryWithAmbientObject</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; CategoryWithAmbientObjects</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> category</p>
 
 <p><a id="X7C90203B8750E72D" name="X7C90203B8750E72D"></a></p>
 
-<h5>1.3-7 DisplayEmbeddingInAmbientObject</h5>
+<h5>1.3-8 DisplayEmbeddingInAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; DisplayEmbeddingInAmbientObject</code>( <var class="Arg">M</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: nothing</p>
@@ -183,7 +203,7 @@
 
 <p><a id="X7F3807797979F97E" name="X7F3807797979F97E"></a></p>
 
-<h5>1.3-8 WithAmbientObject</h5>
+<h5>1.3-9 WithAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; WithAmbientObject</code>( <var class="Arg">F</var>, <var class="Arg">name</var>, <var class="Arg">A</var>, <var class="Arg">B</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; WithAmbientObject</code>( <var class="Arg">F</var>, <var class="Arg">A</var>, <var class="Arg">B</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
@@ -195,7 +215,7 @@
 
 <p><a id="X82AECD3979E1EDE6" name="X82AECD3979E1EDE6"></a></p>
 
-<h5>1.3-9 WithAmbientObject</h5>
+<h5>1.3-10 WithAmbientObject</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; WithAmbientObject</code>( <var class="Arg">eta</var>, <var class="Arg">name</var>, <var class="Arg">F</var>, <var class="Arg">G</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; WithAmbientObject</code>( <var class="Arg">eta</var>, <var class="Arg">F</var>, <var class="Arg">G</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>

@@ -12,7 +12,7 @@ SetPackageInfo( rec(
 PackageName := "CategoriesWithAmbientObjects",
 Subtitle := "Categories with objects having ambient objects",
 Version := Maximum( [
-                   "2021.03-02", ## Mohamed's version
+                   "2021.03-05", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2015.10-06", ## Kamal's version
                    ## this line prevents merge conflicts
@@ -21,8 +21,8 @@ Version := Maximum( [
                    ] ),
 
 # this avoids git-merge conflicts
-Date := "09/03/2021",
-Date := "09/03/2021",
+Date := "20/03/2021",
+Date := "20/03/2021",
 License := "GPL-2.0-or-later",
 
 

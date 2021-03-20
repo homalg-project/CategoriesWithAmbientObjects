@@ -44,8 +44,8 @@ Q[x,y]
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">M := AsLeftOrRightPresentation(</span>
 <span class="GAPprompt">&gt;</span> <span class="GAPinput">  HomalgMatrix( "[ 1, x, 0, 1 ]", 2, 2, R ), true );</span>
 &lt;An object in Category of left presentations of Q[x,y]&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Ag := CategoryWithAmbientObject( CapCategory( M ) );</span>
-Category of left presentations of Q[x,y] with ambient objects
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Ag := CategoryWithAmbientObjects( CapCategory( M ) );</span>
+CategoryWithAmbientObjects( Category of left presentations of Q[x,y] )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">pi := AsGeneralizedMorphismByCospan( CoverByFreeModule( M ) );</span>
 &lt;A morphism in Generalized morphism category of
  Category of left presentations of Q[x,y] by cospan&gt;
