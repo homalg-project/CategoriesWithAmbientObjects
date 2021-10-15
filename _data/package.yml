@@ -1,7 +1,7 @@
 name: CategoriesWithAmbientObjects
-version: "2021.03-05"
+version: "2021.03-07"
 license: "GPL-2.0-or-later"
-date: 2021-03-20
+date: 2021-10-15
 description: |
     Categories with objects having ambient objects
 
@@ -45,11 +45,11 @@ packageinfo: https://homalg-project.github.io/CategoriesWithAmbientObjects/Packa
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.03-05/CategoriesWithAmbientObjects-2021.03-05.tar.gz
+      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.03-07/CategoriesWithAmbientObjects-2021.03-07.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.03-05/CategoriesWithAmbientObjects-2021.03-05.zip
+      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.03-07/CategoriesWithAmbientObjects-2021.03-07.zip
 
-pdf: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.03-05/CategoriesWithAmbientObjects-2021.03-05.pdf
+pdf: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.03-07/CategoriesWithAmbientObjects-2021.03-07.pdf
 
 abstract: |
 
@@ -62,7 +62,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BS21</span>]   <b class='BibAuthor'>Barakat, M. and Saleh, K.</b>,
      <i class='BibTitle'>CategoriesWithAmbientObjects, Categories with objects having ambient objects,
-             Version 2021.03-05</i>
+             Version 2021.03-07</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects">https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects</a></span>.
@@ -70,11 +70,11 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CategoriesWithAmbientObjects2021.03-05,
+    @misc{ CategoriesWithAmbientObjects2021.03-07,
       author =           {Barakat, M. and Saleh, K.},
       title =            {{CategoriesWithAmbientObjects},     Categories    with
-                          objects having ambient objects, {V}ersion 2021.03-05},
-      month =            {Mar},
+                          objects having ambient objects, {V}ersion 2021.03-07},
+      month =            {Oct},
       year =             {2021},
       note =             {GAP package},
       howpublished =     {\href
