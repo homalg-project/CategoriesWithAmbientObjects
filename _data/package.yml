@@ -1,5 +1,5 @@
 name: CategoriesWithAmbientObjects
-version: "2021.10-01"
+version: "2021.10-02"
 license: "GPL-2.0-or-later"
 date: 2021-10-26
 description: |
@@ -45,11 +45,11 @@ packageinfo: https://homalg-project.github.io/CategoriesWithAmbientObjects/Packa
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.10-01/CategoriesWithAmbientObjects-2021.10-01.tar.gz
+      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.10-02/CategoriesWithAmbientObjects-2021.10-02.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.10-01/CategoriesWithAmbientObjects-2021.10-01.zip
+      url: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.10-02/CategoriesWithAmbientObjects-2021.10-02.zip
 
-pdf: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.10-01/CategoriesWithAmbientObjects-2021.10-01.pdf
+pdf: https://github.com/homalg-project/CategoriesWithAmbientObjects/releases/download/v2021.10-02/CategoriesWithAmbientObjects-2021.10-02.pdf
 
 abstract: |
 
@@ -62,7 +62,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BS21</span>]   <b class='BibAuthor'>Barakat, M. and Saleh, K.</b>,
      <i class='BibTitle'>CategoriesWithAmbientObjects, Categories with objects having ambient objects,
-             Version 2021.10-01</i>
+             Version 2021.10-02</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects">https://homalg-project.github.io/pkg/CategoriesWithAmbientObjects</a></span>.
@@ -70,10 +70,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CategoriesWithAmbientObjects2021.10-01,
+    @misc{ CategoriesWithAmbientObjects2021.10-02,
       author =           {Barakat, M. and Saleh, K.},
       title =            {{CategoriesWithAmbientObjects},     Categories    with
-                          objects having ambient objects, {V}ersion 2021.10-01},
+                          objects having ambient objects, {V}ersion 2021.10-02},
       month =            {Oct},
       year =             {2021},
       note =             {GAP package},
