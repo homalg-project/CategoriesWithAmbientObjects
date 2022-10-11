@@ -11,9 +11,9 @@ SetPackageInfo( rec(
 
 PackageName := "CategoriesWithAmbientObjects",
 Subtitle := "Categories with objects having ambient objects",
-Version := "2022.06-01",
-Date := "15/06/2022",
-Date := "15/06/2022",
+Version := "2022.10-01",
+Date := "11/10/2022",
+Date := "11/10/2022",
 License := "GPL-2.0-or-later",
 
 
@@ -85,7 +85,7 @@ PackageDoc := rec(
 ),
 
 Dependencies := rec(
-  GAP := ">=4.4",
+  GAP := ">= 4.11.1",
   NeededOtherPackages := [
                    [ "AutoDoc", ">= 2013.12.04" ],
                    [ "AttributeCategoryForCAP", ">= 2016.09.14" ],
